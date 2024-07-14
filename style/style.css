@@ -12,7 +12,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(./background.jpg) no-repeat;
+  background: url(../img/background.jpg) no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -132,7 +132,7 @@ input:checked + span {
 }
 
 .todo:hover input:checked + span::before, input:checked + span::before {
-  background: url(./check.svg) 50% 50% no-repeat #09bb21;
+  background: url(../img/empty.svg) 50% 50% no-repeat #09bb21;
   border-color: #09bb21;
 }
 
